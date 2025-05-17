@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book2Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:layout_weight="1"
+            android:src="@drawable/book2"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="443dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#FFFFE0"
+            android:padding="20dp"
+            android:text="버리는 방법\n\n-물이나 이물질을 묻지 않게 하고 구겨지지 않게 배출해주세요.\n\n-신문지는 함께 끈으로 묶어서 배출하면 좋아요\n\n-고지서는 주소, 이름 등의 개인정보가 인쇄된 부분은 잘라서 일반쓰레기로 버리고 나머지는 종이로 배출하면 돼요.\n\n-끈끈이가 묻어있는 포스트잇은 그대로 배출해요\n\n-종이와 종이팩은 다른 방식으로 재활용돼요. 반드시 종이팩이 아닌 종이로 분리배출하세요."
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+
+    </LinearLayout>
+</ScrollView>

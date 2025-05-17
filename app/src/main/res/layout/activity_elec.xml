@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFD485"
+    android:orientation="horizontal"
+    android:rowCount="6"
+    android:columnCount="2"
+    >
+
+    <ImageButton
+        android:id="@+id/im_elec2"
+        android:layout_width="125dp"
+        android:layout_height="109dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/elec2" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="            가전제품"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_elec3"
+        android:layout_width="112dp"
+        android:layout_height="99dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/elec3" />
+
+    <TextView
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="               TV"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_elec4"
+        android:layout_width="125dp"
+        android:layout_height="77dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/elec4" />
+
+    <TextView
+        android:layout_row="5"
+        android:layout_column="0"
+        android:text="                세탁기"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_elec5"
+        android:layout_width="125dp"
+        android:layout_height="101dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/elec5" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:text="           노트북"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_elec6"
+        android:layout_width="125dp"
+        android:layout_height="88dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/elec6" />
+
+    <TextView
+        android:layout_row="3"
+        android:layout_column="1"
+        android:text="               스피커"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_elec7"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/elec7" />
+    <TextView
+        android:text="              프린터"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:textSize="20dip" />
+</GridLayout>

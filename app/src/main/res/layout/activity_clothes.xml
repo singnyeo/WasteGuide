@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/elsea"
+    android:background="#AFD485"
+    android:orientation="horizontal"
+    android:rowCount="6"
+    android:columnCount="2"
+    tools:context=".ClothesActivity"
+    >
+
+    <ImageButton
+        android:id="@+id/im_gotoClothes2"
+        android:layout_width="125dp"
+        android:layout_height="105dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/clothes2" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="                의류"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_gotoClothes3"
+        android:background="@android:color/transparent"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:src="@drawable/clothes3"
+        android:layout_width="125dp"
+        android:layout_height="59dp"
+        android:layout_margin="40dp"
+        />
+
+    <TextView
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="                양말"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_gotoClothes4"
+        android:background="@android:color/transparent"
+        android:layout_width="125dp"
+        android:layout_height="59dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_margin="40dp"
+        android:src="@drawable/clothes4" />
+    <TextView
+        android:text="                모자"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_gotoClothes5"
+        android:background="@android:color/transparent"
+        android:layout_width="125dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_margin="40dp"
+        android:src="@drawable/clothes5"
+        />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:text="                신발"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_gotoClothes6"
+        android:background="@android:color/transparent"
+        android:layout_width="125dp"
+        android:layout_height="59dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_margin="40dp"
+        android:src="@drawable/clothes6" />
+
+    <TextView
+        android:text="                 가방"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_gotoClothes7"
+        android:background="@android:color/transparent"
+        android:layout_width="125dp"
+        android:layout_height="59dp"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_margin="40dp"
+        android:src="@drawable/clothes7" />
+    <TextView
+        android:text="               옷걸이"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:textSize="20dip" />
+</GridLayout>

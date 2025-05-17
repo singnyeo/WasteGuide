@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFD485"
+    android:orientation="horizontal"
+    android:rowCount="6"
+    android:columnCount="2"
+    android:id="@+id/cream"
+
+    >
+
+    <ImageButton
+        android:id="@+id/im_Cream2"
+        android:layout_width="125dp"
+        android:layout_height="99dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cream2" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="            프라이팬"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_Cream3"
+        android:layout_width="112dp"
+        android:layout_height="96dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ceam3" />
+
+    <TextView
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="               가위"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_Cream4"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cream4" />
+    <TextView
+        android:text="                 식칼"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_Cream5"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cream5" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:text="          고무장갑"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_Cream6"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cream6" />
+
+    <TextView
+        android:text="                냄비"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/im_Cream7"
+        android:layout_width="125dp"
+        android:layout_height="111dp"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cream7" />
+    <TextView
+        android:text="             조리 기구"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:textSize="20dip" />
+</GridLayout>

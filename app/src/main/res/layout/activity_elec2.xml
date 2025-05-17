@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Elec2Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:layout_weight="1"
+            android:src="@drawable/elec2"></ImageView>
+
+        <TextView
+            android:id="@+id/nabtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#FFFFE0"
+            android:padding="20dp"
+            android:text="폐가전 무상방문수거 서비스(->바로가기)"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="284dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#FFFFE0"
+            android:padding="20dp"
+            android:text="-높이 1m 미만의 소형 가전제품은 가까운 주민센터 등에 비치된 소형 폐가전 전용 수거함으로 배출해주세요.\n\n-대형 생활 폐기물처럼 유료로 폐기물 스티커를 발급받아 버릴 수도 있습니다. 지자체별로 수거 품목이 다를 수 있으므로 주민센터, 구청 등을 통해 품목을 먼저 확인해주세요."
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+
+
+    </LinearLayout>
+</ScrollView>

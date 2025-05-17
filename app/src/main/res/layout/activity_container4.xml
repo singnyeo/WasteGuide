@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Container4Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="455dp"
+        android:layout_weight="1"
+        android:src="@drawable/container4"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="버리는 방법\n\n-내용물을 비우고, 물로 깨끗히 세척해서 배출해요.\n\n-병뚜껑은 캔류 (철) 로 따로 배출해요.\n\n-보증금 환불이 가능한 보증금병은 마트 등에 반납하면 적혀있는 금액의 보증금을 환급받을 수 있어요."
+        android:background="#FFFFE0"></TextView>
+
+
+
+</LinearLayout>

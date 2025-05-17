@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gagu6Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            android:layout_weight="1"
+            android:src="@drawable/gagu6"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:text="버리는 방법\n\n-베개류는 재활용이 불가능합니다. 솜 베개, 메모리폼 베개, 라텍스 베개, 메밀 베개 등 종류와 상관없이 모두 일반쓰레기(종량제봉투)로 버려주세요.
+
+\n\n-양이 많아서 일반쓰레기로 버리기 어렵다면 대형 생활 폐기물로 신고 배출해주세요.
+
+\n\n유의할 점
+\n\n-베개 속재료는 솜, 메모리폼, 라텍스, 메밀, 플라스틱 파이프 등 다양하지만 모두 재활용이 어려운 재질이에요. 의류수거함에 넣지 말고 모두 일반쓰레기로 배출해주세요.
+
+\n\n-대형 생활 폐기물은 주민센터, 구청 등의 지자체에 신고 후 (웹사이트 또는 직접 방문) 폐기물 스티커를 인쇄하거나 발급받아 집 밖으로 옮겨두면 폐기물 수거 업체에서 1-2일 내에 수거해 갑니다.
+
+\n\n-대형 생활 폐기물로 배출할 때엔 베개가 바람에 날아가거나 흩어지지 않게 끈으로 단단히 묶거나 큰 비닐에 담아서 배출해주세요."
+            android:background="#FFFFE0"></TextView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Elec3Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            android:src="@drawable/elec3"></ImageView>
+        <TextView
+            android:id="@+id/nabtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#FFFFE0"
+            android:padding="20dp"
+            android:text="폐가전 무상방문수거 서비스(->바로가기)"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:text="버리는 방법\n\n-대형 생활 폐기물로 폐기물 스티커를 발급받아 버릴 수도 있습니다. 지자체별로 수거 품목이 다를 수 있으므로 주민센터, 구청 등을 통해 품목을 먼저 확인해주세요.
+
+\n\n-사용기간이 짧고, 비교적 상태가 좋은 가전제품은 아름다운가게, 굿윌스토어 등의 기부단체에 기증할 수 있습니다. 단체별로 기증가능 품목이 다르므로 웹사이트를 통해 품목을 미리 확인해주세요.
+\n\n알아두면 좋은 점\n\n
+-TV를 구입한 제조사나 판매사를 통해 회수 요청을 할 수도 있습니다. 가전제품 제조, 판매사는 폐가전과 포장재를 무상으로 회수해야할 의무(‘전기·전자제품 및 자동차의 자원순환에 관한 법률’)가 있습니다.
+
+\n\n-대형 생활 폐기물은 주민센터, 구청 등의 지자체에 신고 후 (웹사이트 또는 직접 방문) 폐기물 스티커를 인쇄하거나 발급받아 집 밖으로 옮겨두면 폐기물 수거 업체에서 1-2일 내에 수거해 갑니다.
+
+\n\n-스티커를 발급받지 않고 길거리, 야산, 쓰레기 수거 장소에 몰래 버릴 경우 수거가 되지 않을 뿐만 아니라 무단 투기로 간주되어 폐기물관리법에 의거해 100만원 이하의 과태료가 부과됩니다."
+
+            android:background="#FFFFE0"></TextView>
+    </LinearLayout>
+
+
+</ScrollView>

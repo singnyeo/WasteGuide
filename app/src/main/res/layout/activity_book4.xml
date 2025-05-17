@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book4Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/cd"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="버리는 방법\n\n-CD,DVD,블루레이 등 디스크는 재활용이 불가능하니 일반쓰레기(종량제봉투)로 버려주세요\n\n\n-투명 CD 케이스는 플라시틱으로 배출해요\n\n\n-CD 케이스 안의 앨범 커버, 종이 속지는 따로 빼서 종이류로 배출해요."
+        android:background="#FFFFE0"></TextView>
+
+
+
+</LinearLayout>

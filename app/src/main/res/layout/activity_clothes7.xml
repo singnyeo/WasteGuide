@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Clothes7Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="289dp"
+            android:layout_weight="1"
+            android:src="@drawable/clothes7"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="371dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#FFFFE0"
+            android:padding="20dp"
+            android:text="버리는 방법\n\n-철사에 플라스틱을 감싸서 만든 철제 옷걸이(세탁소 옷걸이)는 그대로 고철옷걸이 분리 수거로 분리 배출해요.\n\n고리 부분을 포함해서 모두 플라스틱으로만 제작된 옷걸이는 플라스틱옷걸이 분리 수거으로 분리 배출해요.\n\n-고리 부분은 쇠로, 몸통 부분은 플라스틱으로 이루어진 정장용 옷걸이나 바지 옷걸이는 재질별로 떼어내서 캔류와 플라스틱으로 분리 배출하고, 분리가 안되는 경우 재활용도 불가능하니 어쩔 수 없이 일반쓰레기(종량제봉투)로 버려주세요."
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+
+</ScrollView>

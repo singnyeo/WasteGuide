@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cream6Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_weight="1"
+            android:src="@drawable/cream6"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="364dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#FFFFE0"
+            android:padding="20dp"
+            android:text="버리는 방법\n\n-음식물이나 이물질이 묻어있지 않게 깨끗이 세척한 후 배출해요.
+
+\n\n–유리 뚜껑은 깨지지 않게 신문지나 종이에 싸서 일반쓰레기(종량제봉투) 또는 불연성쓰레기(마대봉투)로 버려요.
+
+\n\n-플라스틱 손잡이 등 분리할 수 있는 다른 재질이 있으면 떼어낸 후 재질별로 분리 배출해요. 따로 떼어낼 수 없으면 그대로 배출해도 괜찮아요."
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+
+</ScrollView>

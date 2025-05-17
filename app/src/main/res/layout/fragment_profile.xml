@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment"
+    android:background="#AFD485"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="127dp"
+        android:layout_height="116dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름: John Doe"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="등급: 4단계"
+        android:textSize="20sp"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:id="@+id/viewSupporter"
+        app:layout_constraintBottom_toBottomOf="@id/imageProfile"
+        app:layout_constraintEnd_toEndOf="@id/imageProfile"
+        app:layout_constraintStart_toStartOf="@id/imageProfile"
+        app:layout_constraintTop_toTopOf="@id/imageProfile"></View>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="탈퇴"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/Editbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정보 변경"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

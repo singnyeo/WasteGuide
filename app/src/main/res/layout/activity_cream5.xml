@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cream5Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="243dp"
+            android:layout_weight="1"
+            android:src="@drawable/cream5"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="388dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#FFFFE0"
+            android:padding="20dp"
+            android:text="버리는 방법\n\n-고무장갑, 라텍스장갑, 니트릴장갑 등 고무 재질은 재활용이 어려워서 분리 수거되지 않으니 모두 일반쓰레기(종량제봉투) 로 버려주세요.
+
+\n\n-우리가 사용하는 대부분의 고무 제품은 합성 고무 제품으로 재활용이 불가능해요.
+
+\n\n-천연 고무는 재활용이 가능한 자원이지만 합성 고무를 뺀 천연 고무만을 선별해 수거하는 일은 너무 어려운 일이라서 재활용되지 못하고 있어요. 일반인들이 합성 고무와 천연 고무를 분류해서 배출하기로 너무 어렵고요."
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+</ScrollView>

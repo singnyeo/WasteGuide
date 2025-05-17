@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RegisterLogin</string>
+    <string name="profile" />
+    <string name="book">도서/문구</string>
+    <string name="clothes">패션/잡화</string>
+    <string name="container">용기</string>
+    <string name="cream">주방용품</string>
+    <string name="elec">전자제품</string>
+    <string name="food">음식</string>
+    <string name="프로필">프로필</string>
+    <string name="gagu">가구</string>
+    <string name="gita">기타</string>
+    <string name="verified">사용자</string>>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

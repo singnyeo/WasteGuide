@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Container5Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            android:layout_weight="1"
+            android:src="@drawable/container5"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="371dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#FFFFE0"
+            android:padding="20dp"
+            android:text="버리는 방법\n\n-내용물을 비우고, 물로 깨끗이 세척해서 배출해요.\n\n
+
+-빨대, 비닐, 플라스틱 뚜껑 등 다른 재질은 분리해서 재질별로 분리 배출해요.
+
+\n\n-부피가 줄어들 수 있게 압착시키거나 찢어서 배출하면 더 좋아요.
+
+\n\n-기름이나 음식물에 오염되어 세척이 불가능한 종이팩은 일반쓰레기(종량제봉투)로 버려주세요."
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+</ScrollView>

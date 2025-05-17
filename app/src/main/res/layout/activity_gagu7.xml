@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gagu7Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            android:layout_weight="1"
+            android:src="@drawable/gagu7"></ImageView>
+        <TextView
+            android:id="@+id/nabtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#FFFFE0"
+            android:padding="20dp"
+            android:text="-사용기간이 10년 미만이고, 비교적 상태가 좋은 소파는 한국그린센터(→무료수거 절차 알아보기) 등의 기업을 통해 무료 수거를 신청할 수 있습니다. (현재 서울, 경기도 일부 지역에 한해 수거 가능)"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:text="버리는 방법\n\n-소파는 가죽, 패브릭, 나무 등 재활용이 어려운 여러 재질이 혼합되어 만들어지기 때문에 재활용이 불가능해요. 대형 생활 폐기물로 신고 배출해주세요.
+
+\n\n-집 밖으로 배출시에는 등받이, 쿠션 등이 떨어지지 않도록 테이프나 끈으로 고정해주세요.
+\n\n알아두면 좋은 점
+\n\n-대형 생활 폐기물 신고 및 수거는 유료이며, 가구의 크기에 따라 2,000원-10,000원 가량이 부과됩니다.
+
+\n\n-대형 생활 폐기물은 주민센터, 구청 등의 지자체에 신고 후 (웹사이트 또는 직접 방문) 폐기물 스티커를 인쇄하거나 발급받아 집 밖으로 옮겨두면 폐기물 수거 업체에서 1-2일 내에 수거해 갑니다.
+
+\n\n-스티커를 발급받지 않고 길거리, 야산, 쓰레기 수거 장소에 몰래 버릴 경우 수거가 되지 않을 뿐만 아니라 무단 투기로 간주되어 폐기물관리법에 의거해 100만원 이하의 과태료가 부과됩니다."
+            android:background="#FFFFE0"></TextView>
+
+    </LinearLayout>
+
+</ScrollView>

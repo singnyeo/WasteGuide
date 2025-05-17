@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book7Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            android:layout_weight="1"
+            android:src="@drawable/cutter"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="487dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#FFFFE0"
+            android:padding="20dp"
+            android:text="버리는 방법\n\n-커터칼이나 칼날 등은 고철류에 해당되지만 재활용 업체의 수거,선별 과정에서 사람이 다칠 위험이 있기 때문에 캔류가 아닌 일반쓰레기로 분류됩니다.\n\n-날카로운 칼날이 종량제 봉투를 찢고 나와 수거하는 분이 다치는 경우가 있으니 커터칼을 신문지 등으로 밀봉해서 버려주세요. 칼날만 따로 버려야 한다면 여러겹의 종이로 싸고 테이프로 단단히 고정해서 종량제봉투에 넣어 주세요.\n\n-수거하는 분이 유의할 수 있도록 종량제 봉투 표면에 매직으로 '칼'이라고 크게 표시해주면 더 좋아요."
+            android:textSize="13dp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+</ScrollView>

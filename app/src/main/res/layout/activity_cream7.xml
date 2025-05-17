@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cream7Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            android:layout_weight="1"
+            android:src="@drawable/cream7"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="388dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#FFFFE0"
+            android:padding="20dp"
+            android:text="버리는 방법\n\n-음식물 등이 묻어있으면 깨끗이 닦아낸 후 배출해요.
+
+\n\n-스테인리스 국자, 뒤집개, 집게 등 철 재질의 조리 용품은 캔류조리기구 분리수거로 분리배출해요. 플라스틱 손잡이 등 다른 재질을 분리할 수 있는 경우 떼어낸 후 각각의 재질별로 분리배출하고 분리가 어려우면 그대로 캔류로 배출해주세요.
+
+\n\n-플라스틱 주걱, 뒤집개, 국자 등 플라스틱 재질의 조리 용품은 플라스틱조리기구 분리수거으로 분리배출해요. 고무 손잡이 등 다른 재질이 혼합된 조리 용품은 모두 일반쓰레기(종량제봉투)로 버려주세요."
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+
+</ScrollView>

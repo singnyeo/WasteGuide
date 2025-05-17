@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Container7Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="401dp"
+        android:layout_weight="1"
+        android:src="@drawable/container7"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="버리는 방법\n\n-물이나 이물질을 묻지 않게 하고 구겨지지 않게 배출해요.
+
+\n\n-택배 송장, 테이프, 철핀 등은 깨끗이 떼어냅니다.
+
+\n\n-부피를 줄어들 수 있게 접어서 배출하면 좋아요.
+
+\n\n-종이와 종이팩 은 다른 방식으로 재활용돼요. 반드시 종이팩이 아닌 종이 로 분리 배출하세요."
+        android:background="#FFFFE0"></TextView>
+
+
+
+</LinearLayout>

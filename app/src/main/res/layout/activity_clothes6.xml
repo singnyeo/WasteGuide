@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Clothes6Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            android:layout_weight="1"
+            android:src="@drawable/clothes6"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="415dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#FFFFE0"
+            android:padding="20dp"
+            android:text="버리는 방법\n\n-가방은 재질에 따라 의류수거함 또는 일반쓰레기(종량제봉투)로 배출해요.\n\n-천 가방은 헤지거나 뜯긴 부분 없이 쓸 만한 상태인 경우 의류수거함으로 배출해주세요.\n\n-가죽 가방은 상태가 좋아도 재활용이 어렵습니다. 또한 가죽은 인조가죽, 천연가죽 모두 불에 타는 소재이므로 모두 일반쓰레기(종량제봉투)로 버려주세요."
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+
+    </LinearLayout>
+</ScrollView>

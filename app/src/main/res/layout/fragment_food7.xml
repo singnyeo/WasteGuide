@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodFragment7"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:layout_weight="1"
+            android:src="@drawable/food7"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:text="버리는 방법\n\n-약과 영양제는 종류에 상관없이 가까운 약국, 보건소, 보건진료소 등에 비치된 폐의약품 수거함에 버려주세요.
+
+\n\n-종이곽, 설명서, 약국 봉투 등의 종이 포장재는 일반쓰레기나 종이로 분리 배출하고, 약 봉지, 플라스틱 알약 포장재, 연고(튜브), 물약, 안약, 영양제통 등은 그대로 폐의약품 수거함으로 배출해주세요.
+
+\n\n유의할 점
+\n\n-일반쓰레기(종량제봉투)로 버리거나 하수도로 흘려보내면 절대 안되요. 항생물질 등의 약 성분이 땅에 매립되거나 하천으로 흘러들어가면 토양과 수질을 오염시켜 생태계 교란과 동물, 물고기 등의 기형을 유발하고 슈퍼 박테리아가 양산될 수도 있기 때문입니다."
+            android:background="#FFFFE0"></TextView>
+    </LinearLayout>
+
+
+</ScrollView>

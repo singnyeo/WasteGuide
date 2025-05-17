@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Clothes3Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/clothes3"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="버리는 방법\n\n-일반적으로 양말은 의류수거함의 수거 품목이 아니에요. 하지만 의류수거함의 설치 주체(지자체, 단체, 업체 등)에 따라 수거 품목이 조금씩 다르기 때문에 양말을 수거하는 경우도 있습니다.\n\n-의류수거함으로 수거된 의류는 분류작업 후 구제옷으로 재판매되거나 해외로 수출됩니다. 손상된 부분이 없고, 다른 사람이 입을 수 있는 의류만 배출해주세요."
+        android:background="#FFFFE0"></TextView>
+
+
+
+</LinearLayout>

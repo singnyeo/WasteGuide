@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Container2Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_weight="1"
+        android:src="@drawable/container2"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="버리는 방법\n\n-내용물을 비우고 물로 헹구는 등 이물질을 제거하여 배출합니다. 번거롭더라도 잘 지워지지 않는 기름기는 세제를 사용하여 세척합니다.\n\n-분리배출 표시를 확인하고 부착상표, 부속품 등 본체와 다른 재질은 떼어내거나 가위나 칼등으로 해당 부위만 분리제거한 후 배출합니다.\n\n-‘플라스틱 OTHER’은 다른 플라스틱과 구분하여 배출이 필요합니다."
+        android:background="#FFFFE0"></TextView>
+
+
+
+</LinearLayout>

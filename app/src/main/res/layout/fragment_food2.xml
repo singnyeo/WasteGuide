@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodFragment2"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_weight="1"
+            android:src="@drawable/food2"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:text="버리는 방법\n\n-달걀의 단단한 껍질은 일반쓰레기 (종량제봉투)로 버려요.
+
+\n\n유의할 점
+\n\n-날달걀, 삶은 달걀 등이 상해서 먹을 수 없는 경우 껍질을 까서 달걀 속은 음식물 쓰레기로 버리고 단단한 껍질만 일반쓰레기 (종량제 봉투)로 버려주세요.
+
+\n\n-껍질 속을 물로 한번 헹궈서 버리면 쓰레기 봉투 안에서 썩거나 벌레가 생기는 걸 막을 수 있어서 더 좋아요."
+            android:background="#FFFFE0"></TextView>
+    </LinearLayout>
+
+
+</ScrollView>

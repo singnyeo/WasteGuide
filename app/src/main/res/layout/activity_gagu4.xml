@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gagu4Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="293dp"
+            android:layout_weight="1"
+            android:src="@drawable/gagu4"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:text="버리는 방법\n\n-LED 전구나 LED 전등은 일반쓰레기(종량제봉투)로 버려요.
+
+\n\n-LED 조명은 대부분 플라스틱 재질이 쓰이지만 만약 유리가 포함되어 있다면 깨져서 수거하는 사람이 다칠 수 있으니 쓰레기 봉투가 찢어지지 않게 신문지 등으로 잘 싸서 버려주세요.
+
+\n\n유의할 점
+\n\n-LED는 내부의 반도체 칩을 통해 작동하기 때문에 플라스틱 뿐만 아니라 알루미늄, 구리, 은 등 재활용 가치가 높은 유가금속을 포함하고 있어요.
+
+\n\n-아직 회수 방법이 없어서 재활용되지 못하고 일반쓰레기로 버려지고 있지만 경기도 등 몇몇 지자체에서 시범적으로 재활용 사업을 진행하고 있습니다.
+
+\n\n-LED는 전자 회로, 전원 등 전자기적인 문제가 없는 한 10년 이상 쓸 수 있기 때문에 제품의 수명보단 이용자의 필요에 의해 버려지는 경우가 훨씬 많습니다. LED 제품 구입시 오랫동안 쓸 수 있는 제품으로 신중하게 선택하는 것도 쓰레기를 줄이는 데 큰 도움이 됩니다."
+            android:background="#FFFFE0"></TextView>
+
+    </LinearLayout>
+
+</ScrollView>

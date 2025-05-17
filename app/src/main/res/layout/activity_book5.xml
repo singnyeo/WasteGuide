@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book5Activity"
+    android:background="#AFD485"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/book"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#FFFFE0"
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="버리는 방법\n\n-물이나 이물질을 묻지 않게 하고 구겨지지 않게 배출해주세요.\n\n-양장본 책은 겉표지(일반쓰레기)와 속지(종이)를 분리수거해서 배출해요.\n\n-노트나 제본된 종이를 묶는 스프링(플라스틱 또는 고철)은 분리해서 배출해요\n\n-잡지는 비닐 코팅된 겉표지(일반쓰레기)와 속지(종이)를 분리해서 배출해요."></TextView>
+
+
+</LinearLayout>
